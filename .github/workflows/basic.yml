@@ -24,7 +24,7 @@ jobs:
     # Steps are a sequence of tasks executed as part of a job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
